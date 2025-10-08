@@ -1,11 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parcial</title>
+    <title>Portal Médico - Información de Salud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2c5aa0;
+        }
+        .header h1 {
+            color: #2c5aa0;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .header p {
+            color: #666;
+            font-size: 1.2em;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 4px solid #28a745;
+            background-color: #f8f9fa;
+        }
+        .section h2 {
+            color: #2c5aa0;
+            margin-bottom: 15px;
+        }
+        .medical-card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            transition: transform 0.3s ease;
+        }
+        .medical-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .medical-card h3 {
+            color: #dc3545;
+            margin-bottom: 10px;
+        }
+        .tips-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .tips-list li {
+            background: #e8f5e8;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #28a745;
+        }
+        .emergency {
+            background-color: #fff3cd;
+            border: 2px solid #ffeaa7;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .emergency h3 {
+            color: #856404;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #2c5aa0;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 Portal Médico</h1>
+            <p>Información confiable sobre salud y medicina</p>
+        </div>
+
+        <div class="section">
+            <h2>🩺 Especialidades Médicas</h2>
+            
+            <div class="medical-card">
+                <h3>Cardiología</h3>
+                <p>La cardiología es la especialidad médica que se encarga del estudio, diagnóstico y tratamiento de las enfermedades del corazón y del aparato circulatorio. Los cardiólogos tratan condiciones como infartos, arritmias, hipertensión arterial y enfermedades de las válvulas cardíacas.</p>
+            </div>
+
+            <div class="medical-card">
+                <h3>Neurología</h3>
+                <p>La neurología estudia el sistema nervioso y sus trastornos. Los neurólogos diagnostican y tratan enfermedades como el Alzheimer, Parkinson, epilepsia, migrañas y accidentes cerebrovasculares. Es fundamental para el mantenimiento de las funciones cognitivas y motoras.</p>
+            </div>
+
+            <div class="medical-card">
+                <h3>Pediatría</h3>
+                <p>La pediatría se especializa en la salud de bebés, niños y adolescentes. Los pediatras monitorizan el crecimiento y desarrollo, aplican vacunas, y tratan enfermedades específicas de la infancia como asma, alergias y trastornos del desarrollo.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💊 Medicamentos Comunes</h2>
+            
+            <div class="medical-card">
+                <h3>Analgésicos</h3>
+                <p><strong>Paracetamol:</strong> Medicamento para aliviar el dolor y reducir la fiebre. Dosis típica: 500-1000mg cada 6-8 horas.</p>
+                <p><strong>Ibuprofeno:</strong> Antiinflamatorio no esteroideo que reduce dolor, inflamación y fiebre. Dosis típica: 400-600mg cada 8 horas.</p>
+            </div>
+
+            <div class="medical-card">
+                <h3>Antibióticos</h3>
+                <p><strong>Amoxicilina:</strong> Antibiótico de amplio espectro para infecciones bacterianas. Importante completar el tratamiento completo según prescripción médica.</p>
+                <p><strong>Azitromicina:</strong> Macrólido efectivo contra infecciones respiratorias y de tejidos blandos.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏃‍♂️ Consejos de Salud</h2>
+            
+            <ul class="tips-list">
+                <li><strong>Ejercicio Regular:</strong> Realiza al menos 150 minutos de actividad física moderada por semana para mantener una buena salud cardiovascular.</li>
+                <li><strong>Alimentación Balanceada:</strong> Consume 5 porciones de frutas y verduras al día, limita las grasas saturadas y azúcares procesados.</li>
+                <li><strong>Hidratación:</strong> Bebe al menos 2 litros de agua al día para mantener una hidratación adecuada.</li>
+                <li><strong>Sueño Reparador:</strong> Duerme entre 7-8 horas diarias para permitir la recuperación del organismo.</li>
+                <li><strong>Revisiones Médicas:</strong> Realiza chequeos médicos preventivos al menos una vez al año.</li>
+            </ul>
+        </div>
+
+        <div class="emergency">
+            <h3>⚠️ Números de Emergencia</h3>
+            <p><strong>Emergencias Médicas:</strong> 911</p>
+            <p><strong>Cruz Roja:</strong> Consulta el número local de tu región</p>
+            <p><strong>Centro de Información Toxicológica:</strong> Consulta el número local</p>
+            <p><em>En caso de emergencia médica, busca atención inmediata en el servicio de urgencias más cercano.</em></p>
+        </div>
+
+        <div class="section">
+            <h2>🔬 Exámenes Médicos Comunes</h2>
+            
+            <div class="medical-card">
+                <h3>Análisis de Sangre</h3>
+                <p>Los análisis de sangre son fundamentales para detectar enfermedades, controlar la salud general y monitorear tratamientos. Incluyen hemograma completo, perfil lipídico, glucosa y función renal.</p>
+            </div>
+
+            <div class="medical-card">
+                <h3>Electrocardiograma (ECG)</h3>
+                <p>Examina la actividad eléctrica del corazón para detectar arritmias, infartos o problemas estructurales cardíacos. Es un procedimiento rápido y no invasivo.</p>
+            </div>
+
+            <div class="medical-card">
+                <h3>Radiografías</h3>
+                <p>Utilizan radiación para crear imágenes del interior del cuerpo, especialmente útiles para diagnosticar fracturas, neumonía y otros problemas en huesos y órganos.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><strong>Nota importante:</strong> Esta información es solo para fines educativos. Siempre consulta con un profesional de la salud para diagnósticos y tratamientos específicos.</p>
+            <p>© 2025 Portal Médico - Información de Salud</p>
+        </div>
+    </div>
 </body>
 </html>
